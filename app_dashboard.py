@@ -19,7 +19,7 @@ st.markdown("---")
 @st.cache_data
 def load_data():
     # Langsung baca file bersih yang Anda miliki
-    df = pd.read_excel("ijin_edar_2_PT_Clean.xlsx")
+    df = pd.read_excel("ijin_edar_2_PT_Urut_Expired.xlsx")
     
     # Memastikan kolom TGL EXP diproses menjadi format tanggal
     if 'TGL EXP' in df.columns:
